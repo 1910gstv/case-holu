@@ -1,0 +1,56 @@
+<%- include('partials/header.ejs') %>
+<body>
+  <div class="container">
+    <div class="box">
+      <div class="box-container">
+        <%- include('partials/logo.ejs') %>
+
+        <label for="pTotal">Digite a potência total do sistema(kW): </label>
+        <input type="text" id="pTotal" />
+        <span id="erroTotal" class="msgErro"></span>
+
+        <label for="pPainel"
+          >Digite a potência individual de cada painel(W):
+        </label>
+        <input type="text" id="pPainel" />
+        <span id="erroPainel" class="msgErro"></span>
+
+        <label for="comprimento">Digite o comprimento de cada módulo: </label>
+        <input type="text" id="comprimento" />
+        <span id="erroComprimento" class="msgErro"></span>
+
+        <label for="largura">Digite a largura de cada módulo: </label>
+        <input type="text" id="largura" />
+        <span id="erroLargura" class="msgErro"></span>
+
+        <div class="resultados">
+          <div>
+            <span>Potência total do sistema: </span
+            ><span id="resultadoTotal"></span>
+          </div>
+          <div>
+            <span>Potência individual do módulo: </span
+            ><span id="resultadoPainel"></span>
+          </div>
+          <div>
+            <span>Quantidade de Placas: </span
+            ><span id="resultadoPlacas"></span>
+          </div>
+          <div>
+            <span>Quantidade de Inversores: </span
+            ><span id="qtdInversores"></span>
+          </div>
+          <div>
+            <span>Comprimento Total: </span><span id="comprimentoTotal"></span>
+          </div>
+          <div><span>Área Total: </span><span id="larguraTotal"></span></div>
+        </div>
+
+        <button type="submit" id="button">Enviar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/script.js"></script>
+</body>
+<%- include('partials/footer.ejs') %>

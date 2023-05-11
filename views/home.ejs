@@ -1,0 +1,19 @@
+<%- include('partials/header.ejs') %>
+<body>
+  <div class="container">
+    <div class="box">
+      <div class="box-container">
+        <%- include('partials/logo.ejs') %>
+        <div class="box-container-home">
+          <h3>Seja bem-vindo à resolução do Case Holu Solar 2023!</h3>
+          <p>Essa solução foi desenvolvida por <br />Gustavo Henrique.</p>
+          <p>Clique no botão abaixo e veja as instruções para o uso do App!</p>
+          <form action="/instrucoes">
+            <button>Ler instruções</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<%- include('partials/footer.ejs') %>

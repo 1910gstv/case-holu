@@ -1,0 +1,15 @@
+{
+  "name": "case_holu",
+  "version": "1.0.0",
+  "description": "Resolução do case do processo seletivo Holu Solar 2023",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gustavo Henrique",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}

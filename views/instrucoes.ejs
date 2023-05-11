@@ -1,0 +1,33 @@
+<%- include('partials/header.ejs') %>
+<body>
+  <div class="container">
+    <div class="box">
+      <div class="box-container">
+        <%- include('partials/logo.ejs') %>
+        <div class="box-container-instrucoes">
+          <h3>Instruções para o uso do App:</h3>
+          <p>- Todos os valores devem ser números;</p>
+          <p>- Se houver texto, o App não funcionará;</p>
+          <p>
+            - Em caso de número real, separar com ponto(.) e não com vírgula(,);
+          </p>
+          <p>
+            - O valor de Potência Total do Sistema deve ser informada em kW;
+          </p>
+          <p>
+            - O valor de Potência Individual do módulo deve ser informada em W;
+          </p>
+          <p>
+            - O app fará as conversões necessárias para os devidos cálculos;
+          </p>
+          <br />
+          <h4>Faça bom proveito :&#41 </h4>
+          <form action="/app">
+            <button>Iniciar App</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<%- include('partials/footer.ejs') %>

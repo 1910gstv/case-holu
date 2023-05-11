@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    height: 100vh;
+    position: relative;
+}
+
+.box {
+    width: 400px;
+    height: 85vh;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    gap: 2px;
+}
+
+.box-container label {
+    margin-top: 6px;
+}
+
+.box-container input {
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    padding: 2px 8px 2px 8px;
+    background-color: #e6e6e6;
+}
+
+.box-container-home,
+.box-container-instrucoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2em;
+}
+
+
+.box-container-home button,
+.box-container-instrucoes button {
+    margin-top: 2em;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #e6e6e6;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
+}
+
+.box-container-home p,
+.box-container-instrucoes p {
+    margin-top: 1em;
+}
+
+.header {
+    color: #2B4898;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.header p {
+    font-size: 1.25em;
+    font-weight: bolder;
+}
+
+.header .line {
+    position: absolute;
+    left: 143px;
+    bottom: 5px;
+    width: 12px;
+    border: 1px solid #61CE70;
+}
+
+.header .circle {
+    position: absolute;
+    right: 145px;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #f28d68;
+}
+
+#button {   
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #e6e6e6;
+    width: 50%;
+    margin: 16px auto 0 auto;
+    padding: 8px;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
+}
+
+.msgErro {
+    font-size: 0.8em;
+    font-weight: bolder;
+    color: red;
+}
+
+.resultados {
+    margin-top: 1em;
+}
