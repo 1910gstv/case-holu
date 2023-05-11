@@ -27,8 +27,8 @@ No Script, refenciei todos os elementos DOM para poder fazer as atribuições ne
 
 ### ❓ Como usar?
 
-O uso do programa é simples: Basta você informar a potência total do sistema em kW, o valor de cada placa em W, o comprimento e a largura das placas. Os campos estão bem identificados qual valor deve receber.
-*Todos os numeros devem ser separados por ponto e não por vírgula* 
+O uso do programa é simples: Basta você informar a potência total do sistema em kW, o valor de cada placa em W, o comprimento e a largura das placas. Os campos estão bem identificados qual valor deve receber.<br>
+*Todos os numeros devem ser separados por ponto e não por vírgula* <br>
 Para receber os valores na tela, basta clicar no botão 'Enviar'.
 
 ## 
