@@ -1,4 +1,6 @@
 # Resolução Case Holu Solar 2023 🌅
+> Status do Projeto: Concluido :heavy_check_mark:
+
 
 Olá, seja bem-vindo a resolução do case desenvolvido por mim, Gustavo Henrique. Abaixo, deixo a explicação e algumas considerações sobre o app. 
 ##
