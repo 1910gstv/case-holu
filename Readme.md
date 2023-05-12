@@ -28,6 +28,8 @@ Feito isso, vamos ao cálculos:
 - Por fim, para Área útil do sistema, usei o metro quadrado de cada placa e também multipliquei pelo números de placas;
 - Assim devolvi ao usuário os valores em cada _div_, de acordo com a tela do sistema.
 
+Por último, criei um botão que abre uma caixa de dúvidas, que explica os cálculos, caso o usuário tenha dúvidas quanto aos resultados.
+
 ##
 
 ### ❓ Como usar?
