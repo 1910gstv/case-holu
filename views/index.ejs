@@ -5,6 +5,7 @@
       <div class="box-container">
         <%- include('partials/logo.ejs') %>
 
+        <!-- Inputs -->
         <label for="pTotal">Digite a potência total do sistema(kW): </label>
         <input type="text" id="pTotal" />
         <span id="erroTotal" class="msgErro"></span>
@@ -15,14 +16,15 @@
         <input type="text" id="pPainel" />
         <span id="erroPainel" class="msgErro"></span>
 
-        <label for="comprimento">Digite o comprimento de cada módulo: </label>
+        <label for="comprimento">Digite o comprimento de cada módulo (em metros): </label>
         <input type="text" id="comprimento" />
         <span id="erroComprimento" class="msgErro"></span>
 
-        <label for="largura">Digite a largura de cada módulo: </label>
+        <label for="largura">Digite a largura de cada módulo (em metros): </label>
         <input type="text" id="largura" />
         <span id="erroLargura" class="msgErro"></span>
 
+        <!-- Resultados -->
         <div class="resultados">
           <div>
             <span>Potência total do sistema: </span
@@ -46,7 +48,23 @@
           <div><span>Área Total: </span><span id="larguraTotal"></span></div>
         </div>
 
-        <button type="submit" id="button">Enviar</button>
+        <!-- Box dúvidas -->
+        <div class="box-duvida hidden">
+          <h4>Como são feitos os cálculos?</h4>
+          <p> 
+           • O número de placas é calculado pela Potência Total do sistema, dividido pela Potência de cada placa;
+          </p>
+          <p> 
+           • Cada inversor alimenta até quatro placas;
+          </p>
+          <p> 
+            • Se a divisão resultar em número real, os números de placas e inversores são arredondados para cima,
+            para poder atender as necessidades do cliente.
+          </p>
+        </div>
+
+        <button type="submit" id="button" class="btn">Enviar</button>
+        <button type="submit" id="button-duvida" class="btn" >?</button>
       </div>
     </div>
   </div>

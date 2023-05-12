@@ -9,7 +9,9 @@ const potenciaTotal = document.querySelector("#pTotal"),
   resultadoInversores = document.querySelector("#qtdInversores"),
   resultadoComprimento = document.querySelector("#comprimentoTotal"),
   resultadoLargura = document.querySelector("#larguraTotal"),
-  button = document.querySelector("#button");
+  button = document.querySelector("#button"),
+  buttonDuvida = document.querySelector("#button-duvida"),
+  boxDuvida = document.querySelector(".box-duvida");
 
 //Atribuir os valores para as variáveis ao clicar no botão
 button.addEventListener("click", () => {
@@ -55,8 +57,13 @@ button.addEventListener("click", () => {
   resultadoInversores.innerText = qtdInversores;
 
   let comprimentoTotal = comprimento * qtdPlacas;
-  resultadoComprimento.innerText = comprimentoTotal;
+  resultadoComprimento.innerText = `${comprimentoTotal}m`;
 
-  let areaTotal = comprimento * largura * qtdPlacas;
-  resultadoLargura.innerText = areaTotal;
+  let areaTotal = (comprimento * largura) * qtdPlacas;
+  resultadoLargura.innerText = `${areaTotal.toFixed(2)}m²`;
 });
+
+buttonDuvida.addEventListener('click', () => {
+  boxDuvida.classList.toggle('hidden')
+  boxDuvida.classList.toggle('show')
+})
