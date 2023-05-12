@@ -44,5 +44,13 @@ Após aberto, uso do programa é simples:
 - *Todos os numeros devem ser separados por ponto e não por vírgula* 
 - Para receber os valores na tela, basta clicar no botão 'Enviar'.
 
+##
+
+### 💳 Créditos?
+
+O desenvolvido do Script em NodeJS foi graças ao cursos 'Formação NodeJS', ministrado pelo professor Victor Lima, disponível na Udemy:
+
+➡ [Link para o curso](https://www.udemy.com/course/formacao-nodejs/)
+
 ## 
 ⌨ com 🤍 por [Gustavo Henrique](https://github.com/1910gstv)
